@@ -1,0 +1,7 @@
+.DS_Store
+*.pyc
+django_orm_profiler.egg-info
+node_modules
+.idea
+npm-debug.log
+package-lock.json

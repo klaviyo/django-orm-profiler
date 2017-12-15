@@ -1,0 +1,37 @@
+{
+  "name": "django-orm-profiler-receiver",
+  "version": "1.0.0",
+  "description": "Listens for and displays Django ORM profiling information emitted by a Django app",
+  "main": "profiler-client.js",
+  "scripts": {},
+  "keywords": [
+    "django",
+    "chonus",
+    "orm"
+  ],
+  "author": "community@klaviyo.com",
+  "license": "MIT",
+  "repository": {},
+  "devDependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.5",
+    "commander": "^2.11.0",
+    "express": "^4.16.1",
+    "homedir": "^0.6.0",
+    "js-yaml": "^3.10.0",
+    "short-hash": "^1.0.0",
+    "terminal-kit": "^1.14.0",
+    "underscore": "^1.8.3"
+  },
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.5",
+    "commander": "^2.11.0",
+    "express": "^4.16.1",
+    "homedir": "^0.6.0",
+    "js-yaml": "^3.10.0",
+    "short-hash": "^1.0.0",
+    "terminal-kit": "^1.14.0",
+    "underscore": "^1.8.3"
+  }
+}

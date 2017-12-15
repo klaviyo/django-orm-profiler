@@ -1,0 +1,20 @@
+#
+# GENERAL CONFIGURATION
+# ------------------------------------------------------------------------------
+
+telemetry_host: 127.0.0.1
+telemetry_port: 7734
+
+#
+# DJANGO ROUTER STACK FRAME CONFIGURATION
+# ------------------------------------------------------------------------------
+
+# this should be the first non-ignored pattern in a file path which you'd like
+# to lift out through the profiler
+catch_frame: your/application/path/fragment
+
+# these should be module path prefixes we don't care about, basically anything
+# within the stack before our `catch_frame` that we want to ignore
+ignore_prefixes:
+    - /routers/
+    - /middleware/
