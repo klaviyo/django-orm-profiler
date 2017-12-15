@@ -1,5 +1,5 @@
-from core import exceptions
-from core.logger import sql_logger
+from .core import exceptions
+from .core.logger import sql_logger
 
 
 """ Decorator used to monkey patch the Django SQLCompiler.

@@ -1,6 +1,6 @@
 {
   "name": "django-orm-profiler-receiver",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "Listens for and displays Django ORM profiling information emitted by a Django app",
   "main": "profiler-client.js",
   "scripts": {},
