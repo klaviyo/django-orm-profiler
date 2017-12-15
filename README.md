@@ -15,7 +15,7 @@ Listens for queries your Django app is running and summarizes them.
  - Wherever you do your Django initalizations or settings overrides just add `from django_orm_profiler import profiler`
 
 ### node.js Profiler Client
-
+ - Clone this repo locally and navigate to it.
  - Install our node dependencies via `npm install` in the same directory as `package.json`
 
 ### Capture-Frame
