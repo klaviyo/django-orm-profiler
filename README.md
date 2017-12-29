@@ -1,3 +1,8 @@
+[![PyPI](https://img.shields.io/pypi/v/django-orm-profiler.svg)](https://pypi.python.org/pypi/django-orm-profiler)
+[![GitHub release](https://img.shields.io/github/release/klaviyo/django-orm-profiler.svg)](https://github.com/klaviyo/django-orm-profiler/releases)
+[![PyPI](https://img.shields.io/pypi/l/django-orm-profiler.svg)](https://pypi.python.org/pypi/django-orm-profiler)
+[![GitHub last commit](https://img.shields.io/github/last-commit/klaviyo/django-orm-profiler.svg)](https://github.com/klaviyo/django-orm-profiler/commits/master)
+
 # django-orm-profiler
 
 Listens for queries your Django app is running and summarizes them.
