@@ -15,9 +15,9 @@ Listens for queries your Django app is running and summarizes them.
 
  - Make sure you're in the same virtualenv as your application you wish to profile.
  - Install this package `django-orm-profiler` via `pip install django-orm-profiler`.
- - Copy the `.django-orm-profiler.example` file to your home directoy `~/` and remove the `.example` suffix.
+ - Copy the `.django-orm-profiler.example` file to your home directory `~/` and remove the `.example` suffix.
    - You'll need to update the `capture_frame` value in this file, see [section](#capture-frame) below for more detail.
- - Wherever you do your Django initalizations or settings overrides just add `from django_orm_profiler import profiler`
+ - Wherever you do your Django initializations or settings overrides just add `from django_orm_profiler import profiler`
 
 ### node.js Profiler Client
  - Clone this repo locally and navigate to it.
