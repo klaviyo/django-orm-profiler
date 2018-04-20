@@ -1,5 +1,7 @@
 import socket
-import json
+
+from django.core.serializers.json import DjangoJSONEncoder
+
 
 class Emitter(object):
 
@@ -23,6 +25,6 @@ class Emitter(object):
     """
     def emit(self, payload):
         self.emit_socket.sendto(
-            json.dumps(payload),
+            DjangoJSONEncoder().encode(payload).encode('UTF-8'),
             self.connection_params
         )

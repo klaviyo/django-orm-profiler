@@ -1,8 +1,8 @@
 import inspect
 
-from config import ConfigLoader
-from emitter import Emitter
-from exceptions import NoCaptureFrameFoundException
+from .config import ConfigLoader
+from .emitter import Emitter
+from .exceptions import NoCaptureFrameFoundException
 
 #
 # CONSTANTS
