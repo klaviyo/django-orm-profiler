@@ -25,6 +25,6 @@ class Emitter(object):
     """
     def emit(self, payload):
         self.emit_socket.sendto(
-            DjangoJSONEncoder().encode(payload).encode(),
+            DjangoJSONEncoder().encode(payload).encode('UTF-8'),
             self.connection_params
         )
